@@ -8,10 +8,6 @@ const userRoutes = require('./routes/userRoutes.js')
 
 const connectDB = require('./config/connectdb.js')
 
-const cors = require('cors')
-//cors policy
-app.use(cors())
-
 //database connection
 connectDB(DATABASE_URL)
 
